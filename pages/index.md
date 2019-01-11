@@ -10,7 +10,7 @@ intro_paragraph: >-
 
   Welcome to my experimental website, i'm trying to use Netifly services. If you
   arrived here in some way, i really suggest to you visiting my offcial website
-  <https://www.walterperdan.com>
+  [www.walterperdan.com](https://www.walterperdan.com)
 
 
   Sorry!
