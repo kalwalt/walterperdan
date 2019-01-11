@@ -43,6 +43,9 @@ sass:
 compress_html:
   clippings: all
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 # set some common post defaults
 defaults:
   -
