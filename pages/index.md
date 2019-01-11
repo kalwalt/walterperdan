@@ -3,10 +3,19 @@ layout: home
 title: Welcome
 permalink: /
 section: home
-intro_paragraph: >
-  [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
-  provides the basics to get a fast, static website deployed on Netlify.
-  Features [Netlify CMS](https://www.netlifycms.org), responsive
-  CSS Grid layout, sample
-  pages and posts, and a continuous deployment workflow.
+intro_paragraph: >-
+  ![Art is a joke interactive art wiyh augmented reality by Walter
+  Perdan](/assets/img/uploads/artisajoke_interactive_art_augmented_reality_walter_perdan.jpg)
+
+
+  Welcome to my experimental website, i'm trying to use Netifly services. If you
+  arrived here in some way, i really suggest to you visiting my offcial website
+  <https://www.walterperdan.com>
+
+
+  Sorry!
+
+
+  Walter Perdan
 ---
+
