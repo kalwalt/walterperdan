@@ -4,8 +4,7 @@ title: Welcome
 permalink: /
 section: home
 intro_paragraph: >-
-  ![Art is a joke interactive art with augmented reality by Walter
-  Perdan](/assets/img/uploads/artisajoke_interactive_art_augmented_reality_walter_perdan.jpg =600x430)
+  <img src="/assets/img/uploads/artisajoke_interactive_art_augmented_reality_walter_perdan.jpg" alt="art is a joke" width=600 height=430>
 
 
 
