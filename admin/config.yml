@@ -25,15 +25,24 @@ collections: # A list of collections the CMS should be able to edit
         name: "author"
         widget: "select"
         options:
-          - { label: "Walter Perdan", value: "walter_perdan" }
+          - { label: "Walter Perdan", value: "Walter Perdan" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS"}
       - {label: "Language", name: "lang", widget: "text", default: "en_GB"}
       - label: "Seo"
         name: "seo"
         widget: "object"
         fields:
-          - {label: "Type", name: "type", widget: "text"}
-          - {label: "Author", name: "author", widget: "text"}
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            options:
+              - { label: "BlogPosting", value: "BlogPosting"}
+              - { label: "NewsArticle", value: "NewsArticle"}
+          - label: "Author"
+            name: "author"
+            widget: "select"
+            options:
+              - { label: "Walter Perdan", value: "Walter Perdan" }
           - {label: "Date_Published", name: "datePublished", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Image", name: "image", widget: "file"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
