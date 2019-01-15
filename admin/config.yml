@@ -27,11 +27,19 @@ collections: # A list of collections the CMS should be able to edit
         options:
           - { label: "Walter Perdan", value: "walter_perdan" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS"}
+      - {label: "Language", name: "lang", widget: "text", default: "en_GB"}
+      - label: "Seo"
+        name: "seo"
+        widget: "object"
+        fields:
+          - {label: "Type", name: "type", widget: "text"}
+          - {label: "Author", name: "author", widget: "text"}
+          - {label: "datePublished", name: "datePublished", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Image", name: "image", widget: "file"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}
     # PAGES
-  - name: "page"
     label: "Page"
     folder: "pages"
     sort: "title:asc"
