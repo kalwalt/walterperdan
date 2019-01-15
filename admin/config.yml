@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Type", name: "type", widget: "text"}
           - {label: "Author", name: "author", widget: "text"}
-          - {label: "DatePublished", name: "datePublished", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS"}
+          - {label: "Date_Published", name: "datePublished", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS"}
       - {label: "Image", name: "image", widget: "file"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
