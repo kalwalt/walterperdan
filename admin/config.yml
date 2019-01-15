@@ -32,6 +32,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}
     # PAGES
+  - name: "page"
     label: "Page"
     folder: "pages"
     sort: "title:asc"
