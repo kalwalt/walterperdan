@@ -13,9 +13,14 @@ layout: default
     {% endif %}
   </small>
 </time>
-
+<div>
+{% if page.tags %} |
+  {% for tag in page.tags %}
+    <a href="/blog/tags/#{{ tag | slugify }}" class="tag-mark fas fa-tag"> {{ tag }}</a>
+  {% endfor %}
+{% endif %}
 {% include page-intro.html %}
-
+</div>
 {{ content }}
 
 <nav aria-label="Adjacent Posts">
@@ -32,3 +37,4 @@ layout: default
     {% endif %}
   </ul>
 </nav>
+{% include inject_tag_categories.html %}

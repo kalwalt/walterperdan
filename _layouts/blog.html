@@ -11,7 +11,9 @@ layout: default
 <section>
 
   <h3>Posts</h3>
-
+  <section>
+    {% include inject_tag_categories.html %}
+  </section>
   <ul>
     {% for post in site.posts %}
     {% assign author = site.data.authors[post.author] %}
@@ -25,9 +27,13 @@ layout: default
             {% endif %}
           </small>
         </time>
+        {% if post.tags %} |
+        {% for tag in post.tags %}
+          <a href="/blog/tags/#{{ tag | slugify }}" class="tag-mark fas fa-tag"> {{ tag }}</a>
+        {% endfor %}
+        {% endif %}
         {{ post.excerpt | strip_newlines | truncate: 180 }}
       </li>
     {% endfor %}
   </ul>
-
 </section>
