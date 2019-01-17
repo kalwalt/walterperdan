@@ -95,3 +95,9 @@ textarea {
 button {
 	@include button($link-color, $text-color-negative);
 }
+
+# logo
+
+.img-logo{
+  width: 60%;
+}
