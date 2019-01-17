@@ -6,14 +6,8 @@ section: home
 intro_paragraph: >-
 
   Welcome to my experimental website, i'm trying to use Netifly services. If you
-  arrived here in some way, i really suggest to you visiting my offcial website
+  arrived here in some way, i really suggest to you visiting my official website
   [www.walterperdan.com](https://www.walterperdan.com)
-
-
-  Sorry!
-
-
-  Walter Perdan
 ---
 {% assign path = 'assets/img/uploads/artisajoke_interactive_art_augmented_reality_walter_perdan.jpg' %}
 {% assign alt = 'Art is a joke - interactive art by Walter Perdan, kalwalt' %}
