@@ -2,13 +2,14 @@
 
   <h1>
     <a href="{{ "/" | relative_url }}">
-      <img class="img-logo" src="assets/img/logo-wp.jpg" alt="logo walter perdan" width="600">
+      <img class="img-logo" src="/assets/img/logo-wp.jpg" alt="logo walter perdan" width="600">
         {{ site.slogan | escape }}
     </a>
   </h1>
 
   <nav>
-    {% include navigation.html navigation=site.data.navigation %}
+    {% assign menu = site.menus.header %}
+        {% include menus.html %}
   </nav>
 
 </header>

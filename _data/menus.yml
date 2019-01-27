@@ -1,0 +1,18 @@
+---
+header:
+  - url: /home
+    title: Homepage
+    identifier: home
+  - url: /artworks
+    title: Artworks
+    identifier: artworks
+  - url: /blog
+    title: Blog
+    identifier: blog
+  - url: /about
+    title: About
+    identifier: about
+  - url: /contact
+    title: Contact
+    identifier: contact
+---
