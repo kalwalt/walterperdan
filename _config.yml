@@ -86,7 +86,6 @@ kramdown:
 # Exclude from processing.
 # The following items will not be processed.
 exclude:
-  - [vendor]
   - README.md
   - LICENSE.txt
   - netlify.toml
@@ -94,6 +93,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
