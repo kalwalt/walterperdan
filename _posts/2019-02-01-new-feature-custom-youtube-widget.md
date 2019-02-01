@@ -12,6 +12,7 @@ seo:
 image: >-
   /assets/img/uploads/artisajoke_interactive_art_augmented_reality_walter_perdan.jpg
 intro_paragraph: ''
+tags: 'youtube, video,'
 ---
 This is a youtube video thanks to the new youtube widget:
 
