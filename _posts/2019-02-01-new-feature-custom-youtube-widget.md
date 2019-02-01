@@ -18,6 +18,6 @@ tags:
 ---
 This is a youtube video thanks to the new youtube widget:
 
-youtube Dxb5kjdlWa4
+<img src="http://img.youtube.com/vi/Dxb5kjdlWa4/maxresdefault.jpg" alt="Youtube Video"/>
 
 A short video of my presentation.
